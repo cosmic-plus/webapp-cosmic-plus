@@ -1,0 +1,7 @@
+.*
+*.config.js
+jsdoc.json
+
+extra
+test
+web
