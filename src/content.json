@@ -3,7 +3,7 @@
     {
       "name": "Equilibre.io",
       "short_desc": "Portfolio Manager",
-      "description": "Equilibre.io is a portfolio balancer for the Stellar Decentralized EXchange. Define how you want to split your portfolio, and it will help you maintaining the balance (e.g.: 1/4 Bitcoin, 1/4 Lumens, 1/4 US Dollars, 1/4 Renmibi). Equilibre.io also let you spread your position over several anchors, for a better fund safety.",
+      "description": "Equiliber.io is a portfolio balancer that runs on the Stellar Decentralized Exchange. It is a convenient trading tool to manage positions over the long term.",
       "background": "https://equilibre.io/icons/512x512.png",
       "type": "webapp",
       "links": [
