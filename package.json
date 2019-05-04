@@ -36,12 +36,14 @@
     "live-server": "^1.2.0",
     "node-sass": "^4.12.0",
     "prettier": "^1.16.4",
+    "raw-loader": "^1.0.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
     "@babel/runtime-corejs2": "^7.3.4",
     "@cosmic-plus/domutils": "^2.0.2",
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "es6-promise": "^4.2.6",
     "es6-promise-promise": "^1.0.0",
     "normalize.css": "^8.0.1"
