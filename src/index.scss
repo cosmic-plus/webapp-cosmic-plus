@@ -104,9 +104,11 @@ noscript
   overflow: hidden;
 }
 
-iframe
+.urlView
 {
   width: 100%;
+  border: none;
+  background: white;
 }
 
 .ContentSection

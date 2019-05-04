@@ -4,6 +4,7 @@
  */
 const urlView = module.exports
 
+const dom = require("@cosmic-plus/domutils/es5/dom")
 const html = require("@cosmic-plus/domutils/es5/html")
 
 const iframe = html.create("iframe", ".urlView")
@@ -67,6 +68,8 @@ function rewriteLinks (iframe) {
 
 function resizeIframe (iframe) {
   iframe.height = 0
-  iframe.height = iframe.contentWindow.document.documentElement.scrollHeight + 1
-  iframe.style.border = "none"
+  const idocument = iframe.contentWindow.document.documentElement
+  const margins = dom.header.offsetHeight + dom.footer.offsetHeight
+  const minHeight = window.innerHeight - margins
+  iframe.height = Math.max(minHeight, idocument.scrollHeight + 1)
 }
