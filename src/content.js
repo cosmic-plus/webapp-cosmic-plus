@@ -3,7 +3,7 @@
  * Content class
  */
 
-const Gui = require("@cosmic-plus/jsutils/gui")
+const Gui = require("@cosmic-plus/domutils/es5/gui")
 const content = require("./content.json").content
 
 /**

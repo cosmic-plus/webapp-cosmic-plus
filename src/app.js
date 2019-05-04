@@ -3,10 +3,12 @@
  * Cosmic Plus interface
  */
 
-const dom = require("@cosmic-plus/jsutils/dom")
-const html = require("@cosmic-plus/jsutils/html")
-const Tabs = require("@cosmic-plus/jsutils/tabs")
-const Gui = require("@cosmic-plus/jsutils/gui")
+require("@cosmic-plus/domutils/es5/polyfill")
+
+const dom = require("@cosmic-plus/domutils/es5/dom")
+const html = require("@cosmic-plus/domutils/es5/html")
+const Tabs = require("@cosmic-plus/domutils/es5/tabs")
+const Gui = require("@cosmic-plus/domutils/es5/gui")
 
 const ContentGui = require("./content")
 const SideFrame = require("./side-frame")

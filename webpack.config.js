@@ -10,8 +10,8 @@ module.exports = {
     rules: [
       {
         test: /\.(js)$/,
-        loader: "babel-loader",
-        include: [/src\//, /node_modules\/@cosmic-plus\//]
+        exclude: /node_modules/,
+        loader: "babel-loader"
       }
     ]
   }

@@ -2,7 +2,7 @@
 /**
  * Signing Side Frame
  */
-const html = require("@cosmic-plus/jsutils/html")
+const html = require("@cosmic-plus/domutils/es5/html")
 
 /**
  * Class
