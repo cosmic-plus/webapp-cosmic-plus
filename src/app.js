@@ -13,7 +13,7 @@ const Gui = require("@cosmic-plus/domutils/es5/gui")
 const ContentGui = require("./content")
 const urlView = require("./helpers/url-view")
 
-const about = new Gui(require("./html/about.html"))
+const about = new Gui(require("../bundled/about.html"))
 require("./footer")
 
 /**
