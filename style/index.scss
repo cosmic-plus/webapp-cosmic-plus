@@ -1,0 +1,19 @@
+@import "../node_modules/normalize.css/normalize";
+
+@import "./screen";
+@import "./universal";
+
+@import "./colors";
+@import "./fonts";
+
+@import "./layout";
+
+@import "./generic";
+
+@import "./tag/header";
+@import "./tag/main";
+@import "./tag/footer";
+
+@import "./class/urlView";
+@import "./class/animated";
+@import "./class/spinner";

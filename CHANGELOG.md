@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+
+### Changed
+
+- Match Equilibre.io new style.
+
+## 0.2.0 - 2019-05-04
+
 ### Changed
 
 - Clean repository.

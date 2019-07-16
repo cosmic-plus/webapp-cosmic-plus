@@ -1,0 +1,66 @@
+/* Generic Tag Styling */
+
+a
+{
+  text-decoration: none;
+  font-stretch: condensed;
+  transition: 0.2s all ease;
+  color: $grey-darker;
+
+  &:hover:not(.selected) { 
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+
+p {
+  line-height: 1.4em;
+  vertical-align: baseline;
+}
+
+nav
+{
+  float: right;
+  display: inline-block;
+  line-height: 1.5em;
+  text-align: right;
+
+  a {
+    display: inline-block;
+    margin: 0.2rem 0 0 1.6em;
+    border-bottom: solid 0.2rem transparent;
+
+    &:hover, &.selected { color: $highlight; }
+    &.selected { border-bottom-color: $highlight; }
+  }
+}
+
+h2
+{
+  margin: 1em 0 1.75rem 0;
+  font-size: 1.4em;
+  text-align: center;
+  font-family: "Roboto Slab";
+  position: relative;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+h3
+{
+  margin: 1.2em;
+  font-size: 1.05em;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+hr
+{
+  border: 0;
+  height: 1px;
+  margin : 1em;
+  background-image: linear-gradient(to right, transparent, $grey-light, transparent);
+}
+

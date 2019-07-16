@@ -1,0 +1,46 @@
+/* Main Style */
+
+body > noscript,
+body > main
+{
+  padding: 0.3em 1%;
+  overflow: hidden;
+
+  section {
+    position: relative;
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 0.1em;
+
+    box-shadow: 0.1em 0.1em 0.2em $grey-light;
+    background: $grey-lighter;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 1em 7%;
+
+    img {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+
+      opacity: 0.03;
+      filter: grayscale(40%);
+    }
+
+    aside {
+      position: absolute;
+      right: 1em;
+    }
+
+    a {
+      color: $lowlight;
+
+      &:hover, &.selected {
+        color: scale-color($lowlight, $lightness: +50%);
+      }
+    }
+  }
+}

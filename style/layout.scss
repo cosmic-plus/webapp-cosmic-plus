@@ -1,0 +1,52 @@
+/* Layout */
+
+$header-height: 3rem;
+$footer-height: 3em;
+
+html
+{
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  overflow-y: scroll;
+  vertical-align: middle;
+}
+
+body
+{
+  height: 100%;
+  background: linear-gradient(scale-color($color1, $lightness: 90%), scale-color($color2, $lightness: 90%));
+
+  padding: $header-height 0 $footer-height 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color: $black;
+}
+
+header
+{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: $header-height;
+}
+
+main, noscript
+{
+  display: block;
+  width: 50em;
+  max-width: 96%;
+  margin: auto;
+
+  // Prevent Android Chrome font boost.
+  max-height: 100%;
+}
+
+footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+}
+

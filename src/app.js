@@ -20,15 +20,19 @@ require("./footer")
  * Website Tabs
  */
 
-const tabs = new Tabs({ nav: dom.header, view: dom.main })
+const tabs = new Tabs({ nav: dom.header, selector: dom.header, view: dom.main })
 tabs.add("#applications", "Applications", new ContentGui("webapp"))
 tabs.add("#javascript", "JavaScript", new ContentGui("libjs"))
 tabs.add("#about", "About", about)
-tabs.add("#blog", "Blog", "")
-tabs[tabs.length - 1].link.onclick = null
-tabs[tabs.length - 1].link.href = "https://medium.com/cosmic-plus"
+tabs.add("#blog", "Blog", () =>
+  location.replace("https://medium.com/cosmic-plus")
+)
 
-tabs.listen("select", tab => location.hash = tab)
+tabs.select(null)
+tabs.select(location.hash)
+tabs.listen("select", tab => {
+  if (tab) location.hash = tab
+})
 
 /**
  * Navigation Handler
@@ -36,11 +40,14 @@ tabs.listen("select", tab => location.hash = tab)
 
 function hashHandler () {
   scrollTo(0, 0)
+
   if (location.hash.substr(0, 6) === "#view:") {
+    tabs.select(null)
     urlView.open(location.hash.substr(6))
     html.hide(dom.main)
+  } else if (!tabs.selected) {
+    tabs.select("#applications")
   } else {
-    if (!tabs.selected) tabs.select("#applications")
     urlView.close()
     html.show(dom.main)
   }

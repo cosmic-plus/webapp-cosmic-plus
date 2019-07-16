@@ -27,10 +27,9 @@ ContentGui.Section = class ContentSection extends Gui {
       `
 <section class="ContentSection" %style>
   %formatBackground:background
-  <em>%short_desc</em>
+  <aside>%short_desc</aside>
   <h2>%name</h2>
   <p>%description</p>
-  <hr>
   <nav>%formatLink:links...</nav>
 </section>
     `,

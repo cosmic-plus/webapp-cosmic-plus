@@ -1,0 +1,30 @@
+/* Footer Style */
+
+body > footer
+{
+  border-top: solid 1px $grey-light;
+  background: white;
+  padding: 0 1%;
+  overflow: hidden;
+
+  text-align: center;
+  white-space: nowrap;
+
+  .Icon {
+    display: inline-block;
+    margin: 0.5em 1vw 0 1vw;
+
+    svg {
+      height: 2em;
+      max-width: 9vw;
+
+      fill: $grey-medium;
+      transition: fill 0.2s ease
+    }
+
+    &:hover svg {
+      fill: $highlight;
+    }
+  }
+}
+
