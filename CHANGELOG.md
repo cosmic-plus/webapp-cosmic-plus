@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+
+### Changed
+
+- Update about.html.
+
 ## 0.3.0 - 2019-07-17
 
 ### Changed
