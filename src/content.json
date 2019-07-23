@@ -2,14 +2,14 @@
   "content": [
     {
       "name": "Equilibre.io",
-      "short_desc": "Portfolio Manager",
+      "short_desc": "Portfolio Balancer",
       "description": "Equilibre.io is a portfolio balancer that runs on the Stellar Decentralized Exchange. It is a convenient trading tool to manage long-term positions. Regularly balancing an investment portfolio is known to boost its performances, providing you choose wisely the assets to bet on.",
       "background": "https://equilibre.io/icons/512x512.png",
       "type": "webapp",
       "links": [
-        ["Source code", "https://github.com/cosmic-plus/webapp-equilibre-io"],
-        ["Bug Report", "https://github.com/cosmic-plus/webapp-equilibre-io/issues"],
-        ["Application", "https://equilibre.io"]
+        ["Source code", "https://git.cosmic.plus/webapp-equilibre-io"],
+        ["Bug Report", "https://git.cosmic.plus/webapp-equilibre-io/issues"],
+        ["Open", "https://equilibre.io"]
       ]
     },
     {
@@ -19,9 +19,9 @@
       "background": "https://stellar-authenticator.org/icons/512x512.png",
       "type": "webapp",
       "links": [
-        ["Source code", "https://github.com/cosmic-plus/webapp-stellar-authenticator"],
-        ["Bug Report", "https://github.com/cosmic-plus/webapp-stellar-authenticator/issues"],
-        ["Application", "https://stellar-authenticator.org"]
+        ["Source code", "https://git.cosmic.plus/webapp-stellar-authenticator"],
+        ["Bug Report", "https://git.cosmic.plus/webapp-stellar-authenticator/issues"],
+        ["Open", "https://stellar-authenticator.org"]
       ]
     },
     {
@@ -31,19 +31,19 @@
       "background": "https://cosmic.link/icons/512x512.png",
       "type": "webapp",
       "links": [
-        ["Source Code", "https://github.com/cosmic-plus/webapp-cosmic-link"],
-        ["Bug Report", "https://github.com/cosmic-plus/webapp-cosmic-link/issues"],
-        ["Application", "https://cosmic.link"]
+        ["Source Code", "https://git.cosmic.plus/webapp-cosmic-link"],
+        ["Bug Report", "https://git.cosmic.plus/webapp-cosmic-link/issues"],
+        ["Open", "https://cosmic.link"]
       ]
     },
     {
       "name": "Cosmic Lib",
       "short_desc": "Transaction Request",
-      "description": "Implements both ends of the CosmicLink protocol. Wallet-independent applications can use this library to generate Stellar transactions requests that the user can sign using its own wallet. Wallet applications can use this library to decode, display & sign those transaction requests.",
+      "description": "Implements both ends of the CosmicLink protocol. Applications can use this library to generate Stellar transactions requests that the user can sign using its own wallet. Wallets can use this library to decode, display & sign those transaction requests.",
       "type": "libjs",
       "links": [
-        ["Source Code", "https://github.com/cosmic-plus/node-cosmic-lib"],
-        ["Documentation", "#view:web-cosmic-lib/doc/"],
+        ["Source Code", "https://git.cosmic.plus/js-cosmic-lib"],
+        ["Documentation", "#view:js-cosmic-lib/web/doc/"],
         ["NPM", "https://npmjs.com/cosmic-lib"]
       ]
     },
@@ -53,8 +53,8 @@
       "description": "A wrapper around official Ledger libraries that makes it incredibly simple to implement Ledger Wallet support for Stellar. Works in both web & Node.js environments.",
       "type": "libjs",
       "links": [
-        ["Source Code", "https://github.com/cosmic-plus/node-ledger-wallet"],
-        ["Documentation", "#view:node-ledger-wallet/"],
+        ["Source Code", "https://git.cosmic.plus/js-ledger-wallet"],
+        ["Documentation", "#view:js-ledger-wallet/"],
         ["NPM", "https://npmjs.com/@cosmic-plus/ledger-wallet"]
       ]
     },
@@ -64,8 +64,8 @@
       "description": "On-Chain Multisig is a signature sharing solution that is built on top of the Stellar ledger. It allows to coordinate multi-signature accounts in a distributed & trustless manner, when strong security is required. It can pass data through Stellar public, test or custom network: it is not required that signatures are transmitted on the same network that the multi-signature account.",
       "type": "libjs",
       "links": [
-        ["Source Code", "https://github.com/cosmic-plus/node-oc-multisig"],
-        ["Documentation", "#view:node-oc-multisig/"],
+        ["Source Code", "https://git.cosmic.plus/js-oc-multisig"],
+        ["Documentation", "#view:js-oc-multisig/"],
         ["NPM", "https://npmjs.com/@cosmic-plus/oc-multisig"]
       ]
     },
@@ -75,8 +75,8 @@
       "description": "Loopcall enables unlimited queries to Horizon. You can for example fetch the complete transaction history of an account in two lines of code.",
       "type": "libjs",
       "links": [
-        ["Source Code", "https://github.com/cosmic-plus/node-loopcall"],
-        ["Documentation", "#view:node-loopcall/"],
+        ["Source Code", "https://git.cosmic.plus/js-loopcall"],
+        ["Documentation", "#view:js-loopcall/"],
         ["NPM", "https://npmjs.com/@cosmic-plus/loopcall"]
       ]
     }
