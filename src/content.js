@@ -26,21 +26,26 @@ ContentGui.Section = class ContentSection extends Gui {
     super(
       `
 <section class="ContentSection" %style>
-  %formatBackground:background
+  %toBackground:background
   <aside>%short_desc</aside>
   <h2>%name</h2>
   <p>%description</p>
-  <nav>%formatLink:links...</nav>
+  <nav>%toLink:links...</nav>
 </section>
     `,
       item
     )
   }
 
-  formatLink (link) {
-    return new Gui(`<a href=%1>%0</a>`, link)
+  toLink (link) {
+    if (link[1].startsWith("#")) {
+      return new Gui(`<a href=%1 >%0</a>`, link)
+    } else {
+      return new Gui(`<a href=%1 target="_blank" rel="noopener">%0</a>`, link)
+    }
   }
-  formatBackground (background) {
+
+  toBackground (background) {
     if (background) {
       return new Gui(`<img class="background" src=%background>`, { background })
     }
