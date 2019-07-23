@@ -26,20 +26,26 @@ body > main
       transform: translate(-50%, -50%);
       pointer-events: none;
 
-      opacity: 0.03;
+      opacity: 0.05;
       filter: grayscale(40%);
     }
 
     aside {
       position: absolute;
       right: 1em;
+
+      font-style: italic;
+    }
+
+    nav a:last-child {
+        font-weight: bold;
     }
 
     a {
       color: $lowlight;
 
       &:hover, &.selected {
-        color: scale-color($lowlight, $lightness: +50%);
+        text-decoration: underline!important;
       }
     }
   }

@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Update about.html.
+- Tiny styles update.
 
 ## 0.3.0 - 2019-07-17
 

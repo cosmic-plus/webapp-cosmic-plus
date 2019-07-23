@@ -64,3 +64,18 @@ hr
   background-image: linear-gradient(to right, transparent, $grey-light, transparent);
 }
 
+
+ul {
+  margin: 1em;
+  padding: 0;
+  li {
+    list-style-type: none;
+    margin: 1em;
+
+    &:before {
+      content: "− ";
+      position: absolute;
+      margin-left: -1em;
+    }
+  }
+}
