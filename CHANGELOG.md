@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 
 - Update about.html.
 - Update software links.
+- Automate release procedure.
 
 ## 0.3.0 - 2019-07-17
 
