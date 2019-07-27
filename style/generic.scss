@@ -5,7 +5,7 @@ a
   text-decoration: none;
   font-stretch: condensed;
   transition: 0.2s all ease;
-  color: $grey-darker;
+  color: $fg-dark;
 
   &:hover:not(.selected) { 
     text-decoration: none;
@@ -17,6 +17,7 @@ a
 p {
   line-height: 1.4em;
   vertical-align: baseline;
+  margin: 1.4rem 0;
 }
 
 nav
@@ -31,20 +32,25 @@ nav
     margin: 0.2rem 0 0 1.6em;
     border-bottom: solid 0.2rem transparent;
 
-    &:hover, &.selected { color: $highlight; }
-    &.selected { border-bottom-color: $highlight; }
+    &:hover, &.selected { color: $fg-light; }
+    &.selected { border-bottom-color: $fg-light; }
   }
 }
 
 h2
 {
-  margin: 1em 0 1.75rem 0;
+  margin: 2rem 0;
   font-size: 1.4em;
   text-align: center;
   font-family: "Roboto Slab";
+  font-family: "Tenor Sans";
   position: relative;
   font-weight: bold;
-  vertical-align: bottom;
+  color: $bg-dark;
+
+  &:first-child {
+    margin-top: 1.4rem
+  }
 }
 
 h3
@@ -61,13 +67,14 @@ hr
   border: 0;
   height: 1px;
   margin : 1em;
-  background-image: linear-gradient(to right, transparent, $grey-light, transparent);
+  background-image: linear-gradient(to right, transparent, $grey, transparent);
 }
 
 
 ul {
   margin: 1em;
   padding: 0;
+
   li {
     list-style-type: none;
     margin: 1em;

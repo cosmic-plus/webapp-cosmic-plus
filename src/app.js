@@ -22,7 +22,7 @@ require("./footer")
 
 const tabs = new Tabs({ nav: dom.header, selector: dom.header, view: dom.main })
 tabs.add("#applications", "Applications", new ContentGui("webapp"))
-tabs.add("#javascript", "JavaScript", new ContentGui("libjs"))
+tabs.add("#libraries", "Libraries", new ContentGui("libjs"))
 tabs.add("#about", "About", about)
 tabs.add("#blog", "Blog", () =>
   location.replace("https://medium.com/cosmic-plus")

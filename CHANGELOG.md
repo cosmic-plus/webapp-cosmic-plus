@@ -4,10 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Added
+
+- New visual identity.
+
 ### Changed
 
 - Update about.html.
-- Tiny styles update.
 - Update software links.
 
 ## 0.3.0 - 2019-07-17

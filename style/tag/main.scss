@@ -3,7 +3,7 @@
 body > noscript,
 body > main
 {
-  padding: 0.3em 1%;
+  padding: 0.2em 1%;
   overflow: hidden;
 
   section {
@@ -12,12 +12,12 @@ body > main
     margin: 2rem 0;
     border-radius: 0.1em;
 
-    box-shadow: 0.1em 0.1em 0.2em $grey-light;
-    background: $grey-lighter;
+    box-shadow: 0.1em 0.1em 0.2em $shadow;
+    background: $white;
     overflow-x: auto;
     overflow-y: hidden;
 
-    padding: 1em 7%;
+    padding: 0.6em 7%;
 
     img {
       position: absolute;
@@ -26,7 +26,7 @@ body > main
       transform: translate(-50%, -50%);
       pointer-events: none;
 
-      opacity: 0.05;
+      opacity: 0.04;
       filter: grayscale(40%);
     }
 
@@ -37,15 +37,11 @@ body > main
       font-style: italic;
     }
 
-    nav a:last-child {
+    nav {
+      float: right;
+
+      a:last-child {
         font-weight: bold;
-    }
-
-    a {
-      color: $lowlight;
-
-      &:hover, &.selected {
-        text-decoration: underline!important;
       }
     }
   }

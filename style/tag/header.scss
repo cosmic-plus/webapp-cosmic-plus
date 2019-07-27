@@ -2,8 +2,8 @@
 
 body > header
 {
-  box-shadow: 0.1em 0.1em 0.2em 0.1em $grey-light;
-  background: white;
+  box-shadow: 0.1em 0.1em 0.2em 0.1em $shadow;
+  background: $bg-dark;
   padding: 0 2%;
   vertical-align: top;
   overflow: hidden;
@@ -20,6 +20,12 @@ body > header
     a {
       margin-top: 0.3rem;
       line-height: 2.4rem;
+      color: $fg-dark;
+
+      &:hover, &.selected {
+        color: $white;
+        border-color: $white;
+      }
     }
   }
 
@@ -27,35 +33,54 @@ body > header
     @media screen and (min-width: 46em) { display:none; }
 
     float: right;
-    width: auto;
     height: $header-height;
-    margin: 0;
+    padding: 0 1em;
     font-size: 1.05em;
 
     border: none!important;
     box-shadow: none!important;
-    background: white;
+    background: $bg-dark;
 
-    color: $grey-dark;
-    text-align-last: right;
+    -webkit-appearance: none;
+    color: $white;
+
+    cursor: pointer;
+  }
+
+  &:after {
+    @media screen and (min-width: 46em) { display:none; }
+    content: "▾";
+    color: $white;
+    position: absolute;
+    right: 2%;
+    pointer-events: none;
   }
 
   h1
   {
     display: inline-block;
-    margin: 0.75rem 0;
-
-    line-height: 1.5rem;
-    font-size: 1.5em;
-    font-style: italic;
-    color: $grey-darker;
-    font-weight: bolder;
+    margin: 0;
+    height: $header-height;
+    position:relative;
+    line-height: 2rem;
 
     svg {
       display: inline-block;
-      height: 1em;
-      fill: $grey-darker;
-      transform: skewX(-12deg);
+      fill: $white;
+
+      $logo-height: $header-height * 0.62;
+      $logo-ratio: 0.5;
+
+      &.logo {
+        height: $logo-height;
+        margin: ($header-height - $logo-height) / 2 0;
+      }
+
+      &.title {
+        height: $logo-height * $logo-ratio;
+        margin: ($header-height - $logo-height * $logo-ratio) / 2 0;
+        margin-left: $logo-height * $logo-ratio * 0.62;
+      }
     }
   }
 }

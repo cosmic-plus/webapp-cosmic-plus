@@ -22,7 +22,7 @@ html.append(
     "https://t.me/cosmic_plus"
   ),
   new Icon(
-    require("@fortawesome/fontawesome-free/svgs/brands/reddit.svg"),
+    require("@fortawesome/fontawesome-free/svgs/brands/reddit-alien.svg"),
     "Reddit",
     "https://reddit.com/r/cosmic_plus"
   ),
@@ -32,14 +32,14 @@ html.append(
     "https://twitter.com/cosmic_plus"
   ),
   new Icon(
-    require("@fortawesome/fontawesome-free/svgs/brands/medium.svg"),
+    require("@fortawesome/fontawesome-free/svgs/brands/medium-m.svg"),
     "Medium",
     "https://medium.com/cosmic-plus"
   ),
   new Icon(
-    require("@fortawesome/fontawesome-free/svgs/brands/github.svg"),
+    require("@fortawesome/fontawesome-free/svgs/brands/github-alt.svg"),
     "GitHub",
-    "https://github.com/cosmic-plus/webapp-equilibre-io"
+    "https://git.cosmic.plus"
   ),
   new Icon(
     require("@fortawesome/fontawesome-free/svgs/solid/envelope.svg"),

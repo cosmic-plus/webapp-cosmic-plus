@@ -1,18 +1,16 @@
 /* Colors Theme */
 
-$black: #111;
+$white: #ffffff;
+$grey: hsl(0, 0%, 90%);
+$black: #292929;
 
-$grey-lighter: hsl(0, 0%, 99.5%);
-$grey-light: hsl(0, 0%, 90%);
-$grey-medium: hsl(0, 0%, 80%);
-$grey-dark: hsl(0, 0%, 50%);
-$grey-darker: hsl(0, 0%, 40%);
+$bg-dark: #001738;
+$fg-dark: #b7c0d1;
 
-$color1: hsl(218, 59%, 78%);
-$color2: hsl(218, 75%, 65%);
+$bg-light: #f6f9ff;
+$fg-light: #607492;
+
+$shadow: $grey;
 
 $color-info: mediumseagreen;
 $color-error: tomato;
-
-$highlight: scale-color($color2, $saturation: -30%);
-$lowlight: scale-color($highlight, $lightness: -20%, $saturation: -20%);

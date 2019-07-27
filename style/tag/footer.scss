@@ -2,8 +2,7 @@
 
 body > footer
 {
-  border-top: solid 1px $grey-light;
-  background: white;
+  background: $bg-dark;
   padding: 0 1%;
   overflow: hidden;
 
@@ -12,18 +11,22 @@ body > footer
 
   .Icon {
     display: inline-block;
-    margin: 0.5em 1vw 0 1vw;
+    margin: 0.6em 1vh;
+
+    @media screen and (min-width: 46em) {
+      margin: 0.6em 2vh;
+    }
 
     svg {
-      height: 2em;
+      height: 1.8em;
       max-width: 9vw;
 
-      fill: $grey-medium;
+      fill: $fg-dark;
       transition: fill 0.2s ease
     }
 
     &:hover svg {
-      fill: $highlight;
+      fill: $white;
     }
   }
 }
