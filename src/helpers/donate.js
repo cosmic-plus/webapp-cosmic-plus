@@ -17,7 +17,7 @@ Amount in Lumens:\
 
 function showDonationFrame (amount) {
   const base = "https://cosmic.link/?payment&network=public"
-  const memo = "Donatation%20to%20Cosmic.plus"
+  const memo = "Donation%20to%20Cosmic.plus"
   const destination = "GAWO2C52D57XBT7SQL6YB3XPHFLFD2J4Z5RN7HPFZSHXJMXH72HRXNV3"
   const url = `${base}&memo=${memo}&amount=${amount}&destination=${destination}`
   new SideFrame(url)
