@@ -4,10 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Added
+
+- Add well-sized `static/images/summary.png` as og:image.
+
 ### Changed
 
 - Update icons to final version.
-
 
 ## 1.0.1 - 2019-07-31
 
