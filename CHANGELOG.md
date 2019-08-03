@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 
 - Update icons to final version.
 - Improve link styling.
+- Edit `about.html`.
 
 ## 1.0.1 - 2019-07-31
 
