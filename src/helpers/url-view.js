@@ -40,7 +40,9 @@ function rewriteIframe (iframe) {
 
   // GitHub pages generates two titles.
   if (generator && generator.content.substr(0, 6) === "Jekyll") {
-    html.destroy(html.grab("h1", idocument))
+    if (document.querySelectorAll("h1") > 1) {
+      html.destroy(html.grab("h1", idocument))
+    }
   }
 
   rewriteLinks(iframe)
