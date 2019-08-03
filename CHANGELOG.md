@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Update icons to final version.
+- Improve link styling.
 
 ## 1.0.1 - 2019-07-31
 

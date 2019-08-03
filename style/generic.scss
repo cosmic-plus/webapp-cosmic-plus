@@ -5,7 +5,7 @@ a
   text-decoration: none;
   font-stretch: condensed;
   transition: 0.2s all ease;
-  color: $fg-dark;
+  color: $fg-light;
 
   &:hover:not(.selected) { 
     text-decoration: none;
@@ -32,8 +32,8 @@ nav
     margin: 0.2rem 0 0 1.6em;
     border-bottom: solid 0.2rem transparent;
 
-    &:hover, &.selected { color: $fg-light; }
-    &.selected { border-bottom-color: $fg-light; }
+    &:hover, &.selected { color: $fg-dark; }
+    &.selected { border-bottom-color: $fg-dark; }
   }
 }
 
