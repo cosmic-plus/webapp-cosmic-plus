@@ -1,6 +1,6 @@
 {
   "name": "cosmic-plus",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "The Cosmic.plus website",
   "author": "MisterTicot",
   "repository": "github:cosmic-plus/webapp-cosmic-plus",
@@ -9,8 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "get": "git submodule update -i --recursive",
     "clean": "rm -rf web/*",
-    "prettier": "prettier --write --no-semi 'src/*.js' '*.js' '*.json' '*.md'",
-    "eslint": "eslint --fix 'src/*.js' '*.js'",
+    "prettier": "prettier --write --no-semi 'src/**/*.js' '*.js' '*.json' '*.md'",
+    "eslint": "eslint --fix 'src/**/*.js' '*.js'",
     "lint": "npm run prettier && npm run eslint",
     "set-dev": "sh setenv.sh -d",
     "set-prod": "sh setenv.sh -p",
@@ -53,13 +53,13 @@
     "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
     "raw-loader": "^1.0.0",
-    "webpack": "^4.38.0",
+    "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
     "@babel/runtime-corejs2": "^7.5.5",
     "@cosmic-plus/domutils": "^2.0.2",
-    "@fortawesome/fontawesome-free": "^5.10.0",
+    "@fortawesome/fontawesome-free": "^5.10.1",
     "es6-promise": "^4.2.8",
     "es6-promise-promise": "^1.0.0",
     "normalize.css": "^8.0.1"
