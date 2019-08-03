@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.0 - 2019-08-03
+
+### Added
+
+- Link Cosmic.plus federation server.
+
 ## 1.1.0 - 2019-08-03
 
 ### Added
