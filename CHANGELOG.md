@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+
+### Fixed
+
+- Ui: Fix Cosmic.link side-frame for first-time viewers.
+
 ## 1.2.0 - 2019-08-03
 
 ### Added
