@@ -4,9 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-### Change
+### Changed
 
 - Ui: Open external links in new tab.
+- UI: Scroll `main` rather than `body`.
 
 ### Fixed
 

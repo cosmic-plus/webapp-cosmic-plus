@@ -18,10 +18,9 @@ const domainRegexp = new RegExp(`^${domain}(.*)`)
  */
 
 urlView.open = function (page) {
-  iframe.onload = () => rewriteIframe(iframe)
+  iframe.onload = () => rewriteLinks(iframe)
   iframe.src = domain + page
   html.show(iframe)
-  resizeIframe(iframe)
 }
 
 urlView.close = function () {
@@ -32,11 +31,6 @@ urlView.close = function () {
 /**
  * Helpers
  */
-
-function rewriteIframe (iframe) {
-  rewriteLinks(iframe)
-  resizeIframe(iframe)
-}
 
 function rewriteLinks (iframe) {
   const idocument = iframe.contentWindow.document
@@ -70,12 +64,4 @@ function rewriteLinks (iframe) {
       link.rel = "noopener"
     }
   }
-}
-
-function resizeIframe (iframe) {
-  iframe.height = 0
-  const idocument = iframe.contentWindow.document.documentElement
-  const margins = dom.header.offsetHeight + dom.footer.offsetHeight
-  const minHeight = window.innerHeight - margins
-  iframe.height = Math.max(minHeight, idocument.scrollHeight + 1)
 }

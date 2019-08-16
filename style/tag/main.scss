@@ -4,12 +4,12 @@ body > noscript,
 body > main
 {
   padding: 0.2em 1%;
-  overflow: hidden;
 
   section {
     position: relative;
-    width: 100%;
-    margin: 2rem 0;
+    width: 50em;
+    max-width: 94%;
+    margin: 2rem auto;
     border-radius: 0.1em;
 
     box-shadow: 0.1em 0.1em 0.2em $shadow;

@@ -6,4 +6,5 @@
   min-width: 100%;
   border: none;
   background: white;
+  height: calc(100vh - #{$header-height} - #{$footer-height});
 }

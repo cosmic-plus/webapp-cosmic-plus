@@ -39,7 +39,7 @@ tabs.listen("select", tab => {
  */
 
 function hashHandler () {
-  scrollTo(0, 0)
+  dom.main.scrollTo(0, 0)
 
   if (location.hash.substr(0, 6) === "#view:") {
     tabs.select(null)
