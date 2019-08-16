@@ -52,7 +52,8 @@ function rewriteLinks (iframe) {
       if (pathname.substr(1) === page) continue
       link.onclick = () => location.hash = "#view:" + isSameDomain[1]
     } else if (link.href.substr(0, 1) !== "#") {
-      link.target = "_top"
+      link.target = "_blank"
+      link.rel = "noopener"
     }
   }
 }

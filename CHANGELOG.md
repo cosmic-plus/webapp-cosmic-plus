@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+### Change
+
+- Ui: Open external links in new tab.
+
 ### Fixed
 
 - Ui: Fix Cosmic.link side-frame for first-time viewers.
