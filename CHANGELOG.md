@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 
 - Ui: Fix Cosmic.link side-frame for first-time viewers.
 - UI: Fix embedded pages on iOS.
+- UI: Fix embedded pages links copying/opening in new tabs.
 
 ## 1.2.0 - 2019-08-03
 

@@ -47,10 +47,24 @@ function rewriteLinks (iframe) {
 
     const isSameDomain = link.href.match(domainRegexp)
     if (isSameDomain) {
-      const [page, hash] = isSameDomain[1].split("#", 1)
+      const href = isSameDomain[1]
+      const [page, hash] = href.split("#", 2)
       const pathname = iframe.contentWindow.location.pathname
-      if (pathname.substr(1) === page) continue
-      link.onclick = () => location.hash = "#view:" + isSameDomain[1]
+
+      // `href` for copying link & navigation in new tab/window, `onclick` for
+      // same-page nagivation.
+      if (pathname.substr(1) === page) {
+        // Anchor links.
+        link.href = `${domain}#view:${href}`
+        link.onclick = event => {
+          event.preventDefault()
+          idocument.location.hash = "#" + hash
+        }
+      } else {
+        // Page links.
+        link.href = `${domain}#view:${href}`
+        link.onclick = () => location.hash = `#view:${href}`
+      }
     } else if (link.href.substr(0, 1) !== "#") {
       link.target = "_blank"
       link.rel = "noopener"
