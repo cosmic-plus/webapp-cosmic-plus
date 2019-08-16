@@ -34,17 +34,6 @@ urlView.close = function () {
  */
 
 function rewriteIframe (iframe) {
-  const iwindow = iframe.contentWindow
-  const idocument = iwindow.document
-  const generator = idocument.head.querySelector("[name='generator']")
-
-  // GitHub pages generates two titles.
-  if (generator && generator.content.substr(0, 6) === "Jekyll") {
-    if (document.querySelectorAll("h1") > 1) {
-      html.destroy(html.grab("h1", idocument))
-    }
-  }
-
   rewriteLinks(iframe)
   resizeIframe(iframe)
 }
