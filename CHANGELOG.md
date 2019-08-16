@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 - Ui: Fix Cosmic.link side-frame for first-time viewers.
+- UI: Fix embedded pages on iOS.
 
 ## 1.2.0 - 2019-08-03
 
