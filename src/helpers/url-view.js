@@ -12,6 +12,7 @@ html.append(document.body, iframe)
 
 const domain = `${window.location.protocol}//${window.location.hostname}/`
 const domainRegexp = new RegExp(`^${domain}(.*)`)
+const viewRegexp = new RegExp(`^${domain}#view:`)
 
 /**
  * Main functions
@@ -38,6 +39,9 @@ function rewriteLinks (iframe) {
   for (let index in idocument.links) {
     const link = idocument.links[index]
     if (!link || !link.href) continue
+
+    // Prevent nested navigation.
+    link.href = link.href.replace(viewRegexp, "")
 
     const isSameDomain = link.href.match(domainRegexp)
     if (isSameDomain) {
