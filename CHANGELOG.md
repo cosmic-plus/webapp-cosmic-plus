@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.3.2 - 2019-08-17
+
+### Fixed
+
+- UI: Prevent nested navigation (again).
+
 ## 1.3.1 - 2019-08-17
 
 ### Fixed

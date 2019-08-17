@@ -41,7 +41,9 @@ function rewriteLinks (iframe) {
     if (!link || !link.href) continue
 
     // Prevent nested navigation.
-    link.href = link.href.replace(viewRegexp, "")
+    if (link.href.match(viewRegexp)) {
+      link.href = link.href.replace("#view:", "")
+    }
 
     const isSameDomain = link.href.match(domainRegexp)
     if (isSameDomain) {
