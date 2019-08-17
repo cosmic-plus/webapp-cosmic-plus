@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.3.1 - 2019-08-17
+
+### Fixed
+
+- UI: Workaround Edge `.scrollTo()` bug.
+
 ## 1.3.0 - 2019-08-17
 
 ### Changed
