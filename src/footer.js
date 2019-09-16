@@ -12,44 +12,44 @@ const Icon = require("./helpers/icon")
 html.append(
   dom.footer,
   new Icon(
-    require("@fortawesome/fontawesome-free/svgs/brands/keybase.svg"),
-    "Keybase",
-    "https://keybase.io/team/cosmic_plus"
-  ),
-  new Icon(
-    require("@fortawesome/fontawesome-free/svgs/brands/telegram-plane.svg"),
-    "Telegram",
-    "https://t.me/cosmic_plus"
-  ),
-  new Icon(
-    require("@fortawesome/fontawesome-free/svgs/brands/reddit-alien.svg"),
-    "Reddit",
-    "https://reddit.com/r/cosmic_plus"
-  ),
-  new Icon(
     require("@fortawesome/fontawesome-free/svgs/brands/twitter.svg"),
-    "Twitter",
+    "Follow on Twitter",
     "https://twitter.com/cosmic_plus"
   ),
   new Icon(
+    require("@fortawesome/fontawesome-free/svgs/brands/reddit-alien.svg"),
+    "Follow on Reddit",
+    "https://reddit.com/r/cosmic_plus"
+  ),
+  new Icon(
     require("@fortawesome/fontawesome-free/svgs/brands/medium-m.svg"),
-    "Medium",
+    "Follow on Medium",
     "https://medium.com/cosmic-plus"
   ),
   new Icon(
     require("@fortawesome/fontawesome-free/svgs/brands/codepen.svg"),
-    "Copepen",
+    "Follow on Codepen",
     "https://codepen.io/cosmic-plus"
   ),
   new Icon(
+    require("@fortawesome/fontawesome-free/svgs/brands/telegram-plane.svg"),
+    "Chat on Telegram",
+    "https://t.me/cosmic_plus"
+  ),
+  new Icon(
+    require("@fortawesome/fontawesome-free/svgs/brands/keybase.svg"),
+    "Chat on Keybase",
+    "https://keybase.io/team/cosmic_plus"
+  ),
+  new Icon(
     require("@fortawesome/fontawesome-free/svgs/brands/github-alt.svg"),
-    "GitHub",
+    "Source-code on GitHub",
     "https://git.cosmic.plus"
   ),
   new Icon(
     require("@fortawesome/fontawesome-free/svgs/solid/envelope.svg"),
-    "Email",
+    "Contact by Email",
     "mailto:mister.ticot@cosmic.plus"
   ),
-  new Icon(require("../bundled/donate.svg"), "Donate", donate)
+  new Icon(require("../bundled/donate.svg"), "Donate Lumens", donate)
 )
