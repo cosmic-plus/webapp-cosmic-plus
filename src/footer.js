@@ -37,6 +37,11 @@ html.append(
     "https://medium.com/cosmic-plus"
   ),
   new Icon(
+    require("@fortawesome/fontawesome-free/svgs/brands/codepen.svg"),
+    "Copepen",
+    "https://codepen.io/cosmic-plus"
+  ),
+  new Icon(
     require("@fortawesome/fontawesome-free/svgs/brands/github-alt.svg"),
     "GitHub",
     "https://git.cosmic.plus"
