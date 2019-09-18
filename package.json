@@ -58,10 +58,10 @@
   },
   "dependencies": {
     "@babel/runtime-corejs2": "^7.5.5",
+    "@cosmic-plus/assets": "^1.0.0",
     "@cosmic-plus/domutils": "^2.0.2",
     "@fortawesome/fontawesome-free": "^5.10.1",
     "es6-promise": "^4.2.8",
-    "es6-promise-promise": "^1.0.0",
-    "normalize.css": "^8.0.1"
+    "es6-promise-promise": "^1.0.0"
   }
 }

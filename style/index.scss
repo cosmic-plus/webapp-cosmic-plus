@@ -1,13 +1,9 @@
-@import "../node_modules/normalize.css/normalize";
-
-@import "./screen";
-@import "./universal";
+@import "../node_modules/@cosmic-plus/assets/scss/base";
 
 @import "./colors";
 @import "./fonts";
 
 @import "./layout";
-
 @import "./generic";
 
 @import "./tag/header";
