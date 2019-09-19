@@ -51,5 +51,9 @@ html.append(
     "Contact by Email",
     "mailto:mister.ticot@cosmic.plus"
   ),
-  new Icon(require("../bundled/donate.svg"), "Donate Lumens", donate)
+  new Icon(
+    require("@cosmic-plus/assets/svg/donate.svg"),
+    "Donate Lumens",
+    donate
+  )
 )
