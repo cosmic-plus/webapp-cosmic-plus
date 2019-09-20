@@ -19,7 +19,7 @@ const viewRegexp = new RegExp(`^${domain}#view:`)
  */
 
 urlView.open = function (page) {
-  iframe.src = domain + page
+  iframe.src = domain + page.replace("%23", "#")
   onIframeInteractive(iframe, () => rewriteLinks(iframe))
   html.show(iframe)
 }
@@ -69,15 +69,16 @@ function rewriteLinks (iframe) {
       // same-page nagivation.
       if (pathname.substr(1) === page) {
         // Anchor links.
-        link.href = `${domain}#view:${href}`
+        link.href = `${domain}#view:${href.replace("#", "%23")}`
         link.onclick = event => {
           event.preventDefault()
           idocument.location.hash = "#" + hash
         }
       } else {
         // Page links.
-        link.href = `${domain}#view:${href}`
-        link.onclick = () => location.hash = `#view:${href}`
+        const encodedHref = href.replace("#", "%23")
+        link.href = `${domain}#view:${encodedHref}`
+        link.onclick = () => location.hash = `#view:${encodedHref}`
       }
     } else if (link.href.substr(0, 1) !== "#") {
       link.target = "_blank"
