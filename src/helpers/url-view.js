@@ -19,8 +19,8 @@ const viewRegexp = new RegExp(`^${domain}#view:`)
  */
 
 urlView.open = function (page) {
-  iframe.onload = () => rewriteLinks(iframe)
   iframe.src = domain + page
+  onIframeInteractive(iframe, () => rewriteLinks(iframe))
   html.show(iframe)
 }
 
@@ -32,6 +32,20 @@ urlView.close = function () {
 /**
  * Helpers
  */
+function onIframeInteractive (iframe, thunk) {
+  const iwindow = iframe.contentWindow
+  const xdocument = iwindow.document
+
+  const timer = setInterval(() => {
+    const idocument = iwindow.document
+    if (xdocument === idocument) return
+    const state = idocument.readyState
+    if (state !== "interactive" && state !== "complete") return
+
+    thunk()
+    clearInterval(timer)
+  }, 40)
+}
 
 function rewriteLinks (iframe) {
   const idocument = iframe.contentWindow.document
