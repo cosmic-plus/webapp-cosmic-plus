@@ -10,7 +10,7 @@ const html = require("@cosmic-plus/domutils/es5/html")
 const iframe = html.create("iframe", ".urlView")
 html.append(document.body, iframe)
 
-const domain = `${window.location.protocol}//${window.location.hostname}/`
+const domain = window.location.href.split("/", 3).join("/") + "/"
 const domainRegexp = new RegExp(`^${domain}(.*)`)
 const viewRegexp = new RegExp(`^${domain}#view:`)
 
