@@ -43,8 +43,8 @@
       "type": "libjs",
       "links": [
         ["Source Code", "https://git.cosmic.plus/js-cosmic-lib"],
-        ["Documentation", "#view:js-cosmic-lib/web/doc/"],
-        ["NPM", "https://npmjs.com/cosmic-lib"]
+        ["NPM", "https://npmjs.com/cosmic-lib"],
+        ["Documentation", "#view:js-cosmic-lib/web/doc/"]
       ]
     },
     {
@@ -54,8 +54,8 @@
       "type": "libjs",
       "links": [
         ["Source Code", "https://git.cosmic.plus/js-ledger-wallet"],
-        ["Documentation", "#view:js-ledger-wallet/"],
-        ["NPM", "https://npmjs.com/@cosmic-plus/ledger-wallet"]
+        ["NPM", "https://npmjs.com/@cosmic-plus/ledger-wallet"],
+        ["Documentation", "#view:js-ledger-wallet/"]
       ]
     },
     {
@@ -65,8 +65,8 @@
       "type": "libjs",
       "links": [
         ["Source Code", "https://git.cosmic.plus/js-oc-multisig"],
-        ["Documentation", "#view:js-oc-multisig/"],
-        ["NPM", "https://npmjs.com/@cosmic-plus/oc-multisig"]
+        ["NPM", "https://npmjs.com/@cosmic-plus/oc-multisig"],
+        ["Documentation", "#view:js-oc-multisig/"]
       ]
     },
     {
@@ -76,8 +76,8 @@
       "type": "libjs",
       "links": [
         ["Source Code", "https://git.cosmic.plus/js-loopcall"],
-        ["Documentation", "#view:js-loopcall/"],
-        ["NPM", "https://npmjs.com/@cosmic-plus/loopcall"]
+        ["NPM", "https://npmjs.com/@cosmic-plus/loopcall"],
+        ["Documentation", "#view:js-loopcall/"]
       ]
     }
   ]
