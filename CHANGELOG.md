@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.5.0 - 2019-09-28
+
+### Added
+
+- UI: Add Trezor Wallet library..
+
+### Changed
+
+- UI: Put more focus on documentation.
+
 ## 1.4.0 - 2019-09-21
 
 ### Added
