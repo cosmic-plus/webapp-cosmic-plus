@@ -1,5 +1,9 @@
 module.exports = {
-  entry: "./src/index.js",
+  entry: [
+    // Fix https://github.com/babel/babel/issues/9873
+    "core-js/modules/es.array.iterator",
+    "./src/index.js"
+  ],
   output: {
     path: __dirname + "/web/",
     filename: "index.js",

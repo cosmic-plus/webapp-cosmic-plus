@@ -57,11 +57,10 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "@babel/runtime-corejs2": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
     "@cosmic-plus/assets": "^1.0.1",
     "@cosmic-plus/domutils": "^2.0.4",
     "@fortawesome/fontawesome-free": "^5.11.2",
-    "es6-promise": "^4.2.8",
-    "es6-promise-promise": "^1.0.0"
+    "core-js": "^3.2.1"
   }
 }
