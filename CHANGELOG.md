@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.6.0 - 2019-10-05
+
+### Changed
+
+- Logic: Switch to core-js 3 polyfills.
+
 ## 1.5.0 - 2019-09-28
 
 ### Added
