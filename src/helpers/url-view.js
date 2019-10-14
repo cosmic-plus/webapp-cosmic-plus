@@ -1,4 +1,4 @@
-"use_strict"
+"use strict"
 /**
  * GitHub embedded view
  */
