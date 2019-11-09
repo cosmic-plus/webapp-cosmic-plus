@@ -13,7 +13,7 @@
       ]
     },
     {
-      "name": "Stellar Authenticator",
+      "name": "Stellar-Authenticator.org",
       "short_desc": "Wallet",
       "description": "Stellar Authenticator is a security-oriented wallet for the Stellar blockchain. It has been designed after the functionalities of an hardware wallet. It means that it packs only what is required to make your funds as safe as possible. Strictly limiting the scope of the software makes it easier to review & to keep secure.",
       "background": "https://stellar-authenticator.org/icons/512x512.png",
@@ -25,9 +25,9 @@
       ]
     },
     {
-      "name": "Cosmic Link Website",
+      "name": "Cosmic.link",
       "short_desc": "Transaction Request",
-      "description": "The Cosmic Link website provides a convenient way to share Stellar transaction requests as URL. It is a front-end for the Cosmic Link protocol, which implement a way to sign transactions from wallet-independent applications without disclosing your private key.",
+      "description": "The Cosmic.link website provides a convenient way to share Stellar transaction requests as URL. It is a front-end for the CosmicLink protocol, which implement a way to sign transactions from wallet-independent applications without disclosing your private key.",
       "background": "https://cosmic.link/icons/512x512.png",
       "type": "webapp",
       "links": [
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "name": "Cosmic Lib",
+      "name": "cosmic-lib",
       "short_desc": "Transaction Request",
       "description": "Implements both ends of the CosmicLink protocol. Applications can use this library to generate Stellar transactions requests that the user can sign using its own wallet. Wallets can use this library to decode, display & sign those transaction requests.",
       "type": "libjs",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "name": "Trezor Wallet",
+      "name": "trezor-wallet",
       "short_desc": "Hardware Wallet",
       "description": "This is a convenient wrapper around the official TrezorConnect library. It enables you to connect to Trezor devices and sign Stellar transactions in a few lines of code. This library is browser-only.",
       "type": "libjs",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "name": "Ledger Wallet",
+      "name": "ledger-wallet",
       "short_desc": "Hardware Wallet",
       "description": "A wrapper around official Ledger libraries that makes it incredibly simple to implement Ledger Wallet support for Stellar. Works in both web & Node.js environments.",
       "type": "libjs",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "OC Multisig",
+      "name": "oc-multisig",
       "short_desc": "Multisignature Coordination",
       "description": "On-Chain Multisig is a signature sharing solution that is built on top of the Stellar ledger. It allows to coordinate multi-signature accounts in a distributed & trustless manner, when strong security is required. It can pass data through Stellar public, test or custom network: it is not required that signatures are transmitted on the same network that the multi-signature account.",
       "type": "libjs",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "Loopcall",
+      "name": "loopcall",
       "short_desc": "Data Fetching",
       "description": "Loopcall enables unlimited queries to Horizon. You can for example fetch the complete transaction history of an account in two lines of code.",
       "type": "libjs",
