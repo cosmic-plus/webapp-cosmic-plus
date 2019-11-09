@@ -48,17 +48,6 @@
       ]
     },
     {
-      "name": "trezor-wallet",
-      "short_desc": "Hardware Wallet",
-      "description": "This is a convenient wrapper around the official TrezorConnect library. It enables you to connect to Trezor devices and sign Stellar transactions in a few lines of code. This library is browser-only.",
-      "type": "libjs",
-      "links": [
-        ["Source Code", "https://git.cosmic.plus/js-trezor-wallet"],
-        ["NPM", "https://npmjs.com/@cosmic-plus/trezor-wallet"],
-        ["Documentation", "#view:js-trezor-wallet"]
-      ]
-    },
-    {
       "name": "ledger-wallet",
       "short_desc": "Hardware Wallet",
       "description": "A wrapper around official Ledger libraries that makes it incredibly simple to implement Ledger Wallet support for Stellar. Works in both web & Node.js environments.",
@@ -67,6 +56,17 @@
         ["Source Code", "https://git.cosmic.plus/js-ledger-wallet"],
         ["NPM", "https://npmjs.com/@cosmic-plus/ledger-wallet"],
         ["Documentation", "#view:js-ledger-wallet/"]
+      ]
+    },
+    {
+      "name": "trezor-wallet",
+      "short_desc": "Hardware Wallet",
+      "description": "This is a convenient wrapper around the official TrezorConnect library. It enables you to connect to Trezor devices and sign Stellar transactions in a few lines of code. This library is browser-only.",
+      "type": "libjs",
+      "links": [
+        ["Source Code", "https://git.cosmic.plus/js-trezor-wallet"],
+        ["NPM", "https://npmjs.com/@cosmic-plus/trezor-wallet"],
+        ["Documentation", "#view:js-trezor-wallet"]
       ]
     },
     {
