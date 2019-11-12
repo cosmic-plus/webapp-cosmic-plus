@@ -2,7 +2,7 @@
 /**
  * Donate Interface
  */
-const SideFrame = require("./side-frame")
+const SideFrame = require("cosmic-lib/es5/helpers/side-frame")
 
 function donate () {
   const amount = prompt(`\
