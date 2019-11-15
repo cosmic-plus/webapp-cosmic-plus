@@ -32,9 +32,6 @@ main, noscript
 {
   display: block;
   overflow-y: auto;
-
-  // Prevent Android Chrome font boost.
-  max-height: 100%;
 }
 
 footer
