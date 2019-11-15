@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.7.0 - 2019-11-15
+
+### Changed
+
+- UI: Use [cosmic-lib] SideFrame.
+
 ## 1.6.0 - 2019-10-05
 
 ### Changed
@@ -126,3 +132,4 @@ All notable changes to this project will be documented in this file.
 Initial release
 
 [@b1tcc]: https://keybase.io/b1tcc
+[cosmic-lib]: https://github.com/cosmic-plus/js-cosmic-lib/blob/master/CHANGELOG.md
