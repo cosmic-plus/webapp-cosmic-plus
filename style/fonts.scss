@@ -1,18 +1,15 @@
 // Fonts
 
-@font-face {
+@font-face { //v13
   font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/SourceSansPro-regular.ttf")
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+       url('./fonts/source-sans-pro.woff2') format('woff2'),
+       url('./fonts/source-sans-pro.woff') format('woff');
 }
 
-
-@font-face {
+@font-face { //v11
   font-family: "Tenor Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/TenorSans-regular.ttf")
+  src: local('Tenor Sans'), local('TenorSans'),
+       url('./fonts/tenor-sans.woff2') format('woff2'),
+       url('./fonts/tenor-sans.woff') format('woff');
 }
-
-    
