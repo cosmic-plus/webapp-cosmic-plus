@@ -90,6 +90,17 @@
         ["NPM", "https://npmjs.com/@cosmic-plus/loopcall"],
         ["Documentation", "#view:js-loopcall/"]
       ]
+    },
+    {
+      "name": "tx-result",
+      "short_desc": "Helper",
+      "description": "After posting a transaction to the network, most software need to display a comprehensive feedback to the user. This library produces human-readable descriptions for any possible code Stellar Core returns.",
+      "type": "libjs",
+      "links": [
+        ["Source Code", "https://git.cosmic.plus/tx-result"],
+        ["NPM", "https://npmjs.com/@cosmic-plus/tx-result"],
+        ["Documentation", "#view:js-tx-result/"]
+      ]
     }
   ]
 }
