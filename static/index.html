@@ -23,6 +23,14 @@
     connect-src 'self';
   ">
 
+  <!-- Preload resources -->
+  <script src="index.js" defer></script>
+  <link rel="preload" href="index.css" as="style">
+  <link rel="preload" href="fonts/source-sans-pro.woff2" as="font" type="font/woff2"
+        crossorigin>
+  <link rel="preload" href="fonts/tenor-sans.woff2" as="font" type="font/woff2"
+        crossorigin>
+
   <title>Cosmic.plus - Applications & developer resources for Stellar</title>
   <meta property="og:title"
     content="Cosmic.plus - Applications & developer resources for Stellar">
@@ -68,7 +76,5 @@
 
   <footer id="footer"></footer>
 </body>
-
-<script src="index.js"></script>
 
 </html>
