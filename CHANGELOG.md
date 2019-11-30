@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.9.0 - 2019-11-30
+
+### Added
+
+- Data: Add `tx-result`.
+
+### Changed
+
+- Meta: Preload scripts & styles.
+
+### Fixed
+
+- Meta: Use compressed fonts.
+
 ## 1.8.0 - 2019-11-28
 
 ### Changed
