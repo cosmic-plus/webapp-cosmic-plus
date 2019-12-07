@@ -1,7 +1,6 @@
 /* Header Style */
 
-body > header
-{
+body > header {
   box-shadow: 0.1em 0.1em 0.2em 0.1em $shadow;
   background: $bg-dark;
   padding: 0 2%;
@@ -12,7 +11,9 @@ body > header
 
   nav {
     display: none;
-    @media screen and (min-width: 46em) { display: unset; }
+    @media screen and (min-width: 46em) {
+      display: unset;
+    }
 
     line-height: inherit;
     font-size: 1.05em;
@@ -22,7 +23,8 @@ body > header
       line-height: 2.4rem;
       color: $fg-dark;
 
-      &:hover, &.selected {
+      &:hover,
+      &.selected {
         color: $white;
         border-color: $white;
       }
@@ -30,15 +32,17 @@ body > header
   }
 
   select {
-    @media screen and (min-width: 46em) { display:none; }
+    @media screen and (min-width: 46em) {
+      display: none;
+    }
 
     float: right;
     height: $header-height;
     padding: 0 1em;
     font-size: 1.05em;
 
-    border: none!important;
-    box-shadow: none!important;
+    border: none !important;
+    box-shadow: none !important;
     background: $bg-dark;
 
     -webkit-appearance: none;
@@ -48,7 +52,9 @@ body > header
   }
 
   &:after {
-    @media screen and (min-width: 46em) { display:none; }
+    @media screen and (min-width: 46em) {
+      display: none;
+    }
     content: "▾";
     color: $white;
     position: absolute;
@@ -56,12 +62,11 @@ body > header
     pointer-events: none;
   }
 
-  h1
-  {
+  h1 {
     display: inline-block;
     margin: 0;
     height: $header-height;
-    position:relative;
+    position: relative;
     line-height: 2rem;
 
     svg {

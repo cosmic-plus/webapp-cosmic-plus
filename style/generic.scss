@@ -1,18 +1,16 @@
 /* Generic Tag Styling */
 
-a
-{
+a {
   text-decoration: none;
   font-stretch: condensed;
   transition: 0.2s all ease;
   color: $fg-light;
 
-  &:hover:not(.selected) { 
+  &:hover:not(.selected) {
     text-decoration: none;
     cursor: pointer;
   }
 }
-
 
 p {
   line-height: 1.4em;
@@ -20,8 +18,7 @@ p {
   margin: 1.4rem 0;
 }
 
-nav
-{
+nav {
   float: right;
   display: inline-block;
   line-height: 1.5em;
@@ -32,13 +29,17 @@ nav
     margin: 0.2rem 0 0 1.6em;
     border-bottom: solid 0.2rem transparent;
 
-    &:hover, &.selected { color: $fg-dark; }
-    &.selected { border-bottom-color: $fg-dark; }
+    &:hover,
+    &.selected {
+      color: $fg-dark;
+    }
+    &.selected {
+      border-bottom-color: $fg-dark;
+    }
   }
 }
 
-h2
-{
+h2 {
   margin: 2rem 0;
   font-size: 1.4em;
   text-align: center;
@@ -49,12 +50,11 @@ h2
   color: $bg-dark;
 
   &:first-child {
-    margin-top: 1.4rem
+    margin-top: 1.4rem;
   }
 }
 
-h3
-{
+h3 {
   margin: 1.2em;
   font-size: 1.05em;
   font-weight: bold;
@@ -62,14 +62,12 @@ h3
   text-align: center;
 }
 
-hr
-{
+hr {
   border: 0;
   height: 1px;
-  margin : 1em;
+  margin: 1em;
   background-image: linear-gradient(to right, transparent, $grey, transparent);
 }
-
 
 ul {
   margin: 1em;

@@ -32,7 +32,10 @@
       "type": "webapp",
       "links": [
         ["Source code", "https://git.cosmic.plus/webapp-stellar-authenticator"],
-        ["Bug Report", "https://git.cosmic.plus/webapp-stellar-authenticator/issues"],
+        [
+          "Bug Report",
+          "https://git.cosmic.plus/webapp-stellar-authenticator/issues"
+        ],
         ["Open", "https://stellar-authenticator.org"]
       ]
     },
@@ -94,7 +97,7 @@
     {
       "name": "tx-result",
       "short_desc": "Helper",
-      "description": "After posting a transaction to the network, most software need to display a comprehensive feedback to the user. This library produces human-readable descriptions for any possible code Stellar Core returns.",
+      "description": "After posting a transaction to the network, most software needs to display comprehensive feedback to the user. This library produces human-readable descriptions for any possible code Stellar Core returns.",
       "type": "libjs",
       "links": [
         ["Source Code", "https://git.cosmic.plus/tx-result"],

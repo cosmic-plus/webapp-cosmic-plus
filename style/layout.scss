@@ -3,14 +3,12 @@
 $header-height: 3rem;
 $footer-height: 3em;
 
-html
-{
+html {
   position: relative;
   min-height: 100vh;
 }
 
-body
-{
+body {
   height: 100vh;
   background: $bg-light;
 
@@ -19,8 +17,7 @@ body
   color: $black;
 }
 
-header
-{
+header {
   position: fixed;
   top: 0;
   z-index: 1;
@@ -28,17 +25,15 @@ header
   height: $header-height;
 }
 
-main, noscript
-{
+main,
+noscript {
   display: block;
   overflow-y: auto;
 }
 
-footer
-{
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: $footer-height;
 }
-

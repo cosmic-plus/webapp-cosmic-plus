@@ -1,7 +1,6 @@
 /* Footer Style */
 
-body > footer
-{
+body > footer {
   background: $bg-dark;
   padding: 0 1%;
   overflow: hidden;
@@ -22,7 +21,7 @@ body > footer
       max-width: 9vw;
 
       fill: $fg-dark;
-      transition: fill 0.2s ease
+      transition: fill 0.2s ease;
     }
 
     &:hover svg {
@@ -30,4 +29,3 @@ body > footer
     }
   }
 }
-
