@@ -60,17 +60,13 @@ function rewriteLinks (iframe) {
 
     const isSameDomain = link.href.match(domainRegexp)
     if (isSameDomain) {
-      const href = isSameDomain[1]
-      const [page] = href.split("#", 1)
-      const pathname = iframe.contentWindow.location.pathname
-
       // `href` for copying link & navigation in new tab/window, `onclick` for
-      // same-page nagivation.
-      const isSamePage = pathname.substr(1) === page
+      // same-page navigation.
+      const href = isSameDomain[1]
       const encodedHref = href.replace("#", "%23")
       link.href = `${domain}#view:${encodedHref}`
       link.onclick = event => {
-        if (isSamePage) event.preventDefault()
+        event.preventDefault()
         location.hash = `#view:${encodedHref}`
       }
     } else if (link.href.substr(0, 1) !== "#") {
