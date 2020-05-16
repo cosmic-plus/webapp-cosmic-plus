@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.10.0 - 2020-05-16
+
+### Changed
+
+- UI: Polish styles.
+- UI: Remove Codepen link.
+
+### Fixed
+
+- UI: Fix broken navigation in Firefox.
+
 ## 1.9.0 - 2019-11-30
 
 ### Added
