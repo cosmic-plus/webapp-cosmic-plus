@@ -27,11 +27,6 @@ html.append(
     "https://medium.com/cosmic-plus"
   ),
   new Icon(
-    require("@fortawesome/fontawesome-free/svgs/brands/codepen.svg"),
-    "Follow on Codepen",
-    "https://codepen.io/cosmic-plus"
-  ),
-  new Icon(
     require("@fortawesome/fontawesome-free/svgs/brands/telegram-plane.svg"),
     "Chat on Telegram",
     "https://t.me/cosmic_plus"
