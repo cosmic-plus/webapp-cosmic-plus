@@ -1,8 +1,7 @@
 /* Header Style */
 
 body > header {
-  box-shadow: 0.1em 0.1em 0.2em 0.1em $shadow;
-  background: $bg-dark;
+  @include elevation(4) background: $bg-dark;
   padding: 0 2%;
   vertical-align: top;
   overflow: hidden;
@@ -22,11 +21,14 @@ body > header {
       margin-top: 0.3rem;
       line-height: 2.4rem;
       color: $fg-dark;
+      border-bottom: solid 0.2rem transparent;
 
       &:hover,
       &.selected {
-        color: $white;
-        border-color: $white;
+        color: primary(0);
+      }
+      &.selected {
+        border-bottom-color: primary(0);
       }
     }
   }

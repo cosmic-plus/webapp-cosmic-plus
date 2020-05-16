@@ -1,14 +1,14 @@
 /* Colors Theme */
 
-$white: #ffffff;
-$grey: hsl(0, 0%, 90%);
-$black: #292929;
+$white: grey(0);
+$grey: grey(7);
+$black: grey(9);
 
-$bg-dark: #001738;
-$fg-dark: #b7c0d1;
+$bg-dark: primary(9);
+$fg-dark: primary(3);
 
-$bg-light: #f6f9ff;
-$fg-light: #607492;
+$bg-light: primary(0);
+$fg-light: primary(5);
 
 $shadow: $grey;
 
