@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.11.0 - 2020-06-14
+
+### Changed
+
+- UI: Change donation address.
+
 ## 1.10.0 - 2020-05-16
 
 ### Changed
