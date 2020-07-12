@@ -5,8 +5,9 @@ body > main {
   padding: 0.2em 1%;
 
   section {
-    @include elevation(1) position: relative;
+    @include elevation(1);
 
+    position: relative;
     width: 50em;
     max-width: 94%;
     margin: 2rem auto;

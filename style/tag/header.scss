@@ -1,7 +1,9 @@
 /* Header Style */
 
 body > header {
-  @include elevation(4) background: $bg-dark;
+  @include elevation(4);
+
+  background: $bg-dark;
   padding: 0 2%;
   vertical-align: top;
   overflow: hidden;
@@ -20,15 +22,15 @@ body > header {
     a {
       margin-top: 0.3rem;
       line-height: 2.4rem;
-      color: $fg-dark;
+      color: primary(0);
       border-bottom: solid 0.2rem transparent;
 
       &:hover,
       &.selected {
-        color: primary(0);
+        color: primary(3);
       }
       &.selected {
-        border-bottom-color: primary(0);
+        border-bottom-color: primary(3);
       }
     }
   }
@@ -48,7 +50,7 @@ body > header {
     background: $bg-dark;
 
     -webkit-appearance: none;
-    color: $white;
+    color: primary(0);
 
     cursor: pointer;
   }
@@ -58,7 +60,7 @@ body > header {
       display: none;
     }
     content: "▾";
-    color: $white;
+    color: primary(0);
     position: absolute;
     right: 2%;
     pointer-events: none;
