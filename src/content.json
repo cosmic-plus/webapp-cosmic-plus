@@ -16,7 +16,7 @@
       "name": "Cosmic.link",
       "short_desc": "Transaction Request",
       "description": "The Cosmic.link website provides a convenient way to share Stellar transaction requests as URL. It is a front-end for the CosmicLink protocol, which implement a way to sign transactions from wallet-independent applications without disclosing your private key.",
-      "background": "https://cosmic.link/icons/512x512.png",
+      "background": "https://cosmic.link/icons/safari.svg",
       "type": "webapp",
       "links": [
         ["Source Code", "https://git.cosmic.plus/webapp-cosmic-link"],
@@ -28,7 +28,7 @@
       "name": "Equilibre.io",
       "short_desc": "Portfolio Balancer",
       "description": "Equilibre.io is a portfolio balancer that runs on the Stellar Decentralized Exchange. It is a convenient trading tool to manage long-term positions. Regularly balancing an investment portfolio is known to boost its performances, providing you choose wisely the assets to bet on.",
-      "background": "https://equilibre.io/icons/512x512.png",
+      "background": "https://equilibre.io/icons/safari.svg",
       "type": "webapp",
       "links": [
         ["Source code", "https://git.cosmic.plus/webapp-equilibre-io"],
@@ -40,7 +40,7 @@
       "name": "Stellar-Authenticator.org",
       "short_desc": "Wallet",
       "description": "Stellar Authenticator is a security-oriented wallet for the Stellar blockchain. It has been designed after the functionalities of an hardware wallet. It means that it packs only what is required to make your funds as safe as possible. Strictly limiting the scope of the software makes it easier to review & to keep secure.",
-      "background": "https://stellar-authenticator.org/icons/512x512.png",
+      "background": "https://stellar-authenticator.org/icons/safari.svg",
       "type": "webapp",
       "links": [
         ["Source code", "https://git.cosmic.plus/webapp-stellar-authenticator"],
