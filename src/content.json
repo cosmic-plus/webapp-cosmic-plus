@@ -1,6 +1,18 @@
 {
   "content": [
     {
+      "name": "Cosmic.vote",
+      "short_desc": "Decentralized Organizations",
+      "description": "Cosmic.vote implements the first building blocks for decentralized organizations on Stellar: majority judgment and passive contracts. Majority judgment is a robust voting system that is suitable for achieving both community and automated consensus. A passive contract is a mechanism that achieves trustless Turing-complete computations under specific conditions. Cosmic.vote provides an open-source implementation of those, as well as three real-world use cases: polls, contests w/ decentralized prize pools, & oracles.",
+      "background": "https://cosmic.vote/icons/safari.svg",
+      "type": "webapp",
+      "links": [
+        ["Source Code", "https://git.cosmic.plus/webapp-cosmic-vote"],
+        ["Bug Report", "https://git.cosmic.plus/webapp-cosmic-vote/issues"],
+        ["Open", "https://cosmic.vote"]
+      ]
+    },
+    {
       "name": "Cosmic.link",
       "short_desc": "Transaction Request",
       "description": "The Cosmic.link website provides a convenient way to share Stellar transaction requests as URL. It is a front-end for the CosmicLink protocol, which implement a way to sign transactions from wallet-independent applications without disclosing your private key.",
