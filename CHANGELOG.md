@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.12.0 - 2020-07-12
+
+### Added
+
+- UI: Add Cosmic.vote application.
+
+### Changed
+
+- Style: Minor color change.
+- UI: Replace applications' logos by SVG.
+
 ## 1.11.0 - 2020-06-14
 
 ### Changed
